@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudyWise - Agenda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/agenStyle.css">
+</head>
+
+<body>
+    <div id="sidebar">
+        <div>
+            <div class="logo">📘 StudyWise</div>
+            <div id="add-session">➕ Adicionar Nova Sessão</div>
+        </div>
+        <div>
+            <div id="user-info-container">
+                <img src="/img/perfil-de-usuario.png" alt="" sizes="" srcset="">
+                <div id="user-details">
+                    <div><strong>Boanerges</strong></div>
+                    <div style="font-size: 11px;">boanerges@gmail.com</div>
+                </div>
+            </div>
+            <button id="logout-button">⎋ Sair</button>
+        </div>
+    </div>
+    <div id="main">
+        <h2>Minha Agenda de Estudos</h2>
+        <p class="subtitle">Visualize e gerencie suas próximas sessões de estudo.</p>
+        <div id="cards-container">
+            <div class="card">
+                <h3>Revisar Hooks do React</h3>
+                <p>📘 Desenvolvimento Frontend</p>
+                <p>🗓️ quinta, 22 mai, 2025</p>
+                <p>⏰ 10:00 - 11:30</p>
+                <p>✏️ Fazer revisão de useEffect. Completar exercícios do Luizal.</p>
+                <div class="card-buttons">
+                    <button class="btn edit">✎ Editar</button>
+                    <button class="btn remove">🗑 Remover</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Implementação de Fluxo GenKit</h3>
+                <p>📘 Integração IA</p>
+                <p>🗓️ sábado, 24 mai, 2025</p>
+                <p>⏰ 14:00 - 16:00</p>
+                <p>✏️ Construir um fluxo para gerar dados de prompts para função genKit interna.</p>
+                <div class="card-buttons">
+                    <button class="btn edit">✎ Editar</button>
+                    <button class="btn remove">🗑 Remover</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
